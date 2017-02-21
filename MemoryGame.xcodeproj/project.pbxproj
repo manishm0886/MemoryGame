@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3D6120C11E5B785C00ED6E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6120C01E5B785C00ED6E7B /* AppDelegate.swift */; };
-		3D6120C31E5B785C00ED6E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6120C21E5B785C00ED6E7B /* ViewController.swift */; };
+		3D6120C31E5B785C00ED6E7B /* MemoryGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6120C21E5B785C00ED6E7B /* MemoryGameVC.swift */; };
 		3D6120C61E5B785C00ED6E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6120C41E5B785C00ED6E7B /* Main.storyboard */; };
 		3D6120C81E5B785C00ED6E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6120C71E5B785C00ED6E7B /* Assets.xcassets */; };
 		3D6120CB1E5B785C00ED6E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6120C91E5B785C00ED6E7B /* LaunchScreen.storyboard */; };
+		3D6120D51E5B790000ED6E7B /* MemoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6120D31E5B790000ED6E7B /* MemoryCell.swift */; };
+		3D6120D61E5B790000ED6E7B /* MemoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6120D41E5B790000ED6E7B /* MemoryCell.xib */; };
+		3D6120D81E5B817A00ED6E7B /* MemoryConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6120D71E5B817A00ED6E7B /* MemoryConstants.swift */; };
+		3D6120DB1E5B83F100ED6E7B /* MemoryCollectionViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6120DA1E5B83F100ED6E7B /* MemoryCollectionViewHandler.swift */; };
+		3D6120DD1E5BA41100ED6E7B /* MemoryCardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6120DC1E5BA41100ED6E7B /* MemoryCardButton.swift */; };
+		3D6120E01E5BD7C500ED6E7B /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6120DF1E5BD7C500ED6E7B /* Array+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D6120BD1E5B785C00ED6E7B /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6120C01E5B785C00ED6E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D6120C21E5B785C00ED6E7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D6120C21E5B785C00ED6E7B /* MemoryGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameVC.swift; sourceTree = "<group>"; };
 		3D6120C51E5B785C00ED6E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D6120C71E5B785C00ED6E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6120CA1E5B785C00ED6E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D6120CC1E5B785C00ED6E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6120D31E5B790000ED6E7B /* MemoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemoryCell.swift; path = MemoryCell/MemoryCell.swift; sourceTree = "<group>"; };
+		3D6120D41E5B790000ED6E7B /* MemoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MemoryCell.xib; path = MemoryCell/MemoryCell.xib; sourceTree = "<group>"; };
+		3D6120D71E5B817A00ED6E7B /* MemoryConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemoryConstants.swift; path = MemoryConstants/MemoryConstants.swift; sourceTree = "<group>"; };
+		3D6120DA1E5B83F100ED6E7B /* MemoryCollectionViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemoryCollectionViewHandler.swift; path = MemoryCollectionHandler/MemoryCollectionViewHandler.swift; sourceTree = "<group>"; };
+		3D6120DC1E5BA41100ED6E7B /* MemoryCardButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemoryCardButton.swift; path = MemoryCell/MemoryCardButton.swift; sourceTree = "<group>"; };
+		3D6120DF1E5BD7C500ED6E7B /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Extensions.swift"; path = "Util/Array+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,44 @@
 		3D6120BF1E5B785C00ED6E7B /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				3D6120DE1E5BD7A700ED6E7B /* Util */,
+				3D6120D91E5B83A100ED6E7B /* MemoryCollectionHandler */,
+				3D6120D21E5B78B500ED6E7B /* MemoryCell */,
 				3D6120C01E5B785C00ED6E7B /* AppDelegate.swift */,
-				3D6120C21E5B785C00ED6E7B /* ViewController.swift */,
 				3D6120C41E5B785C00ED6E7B /* Main.storyboard */,
 				3D6120C71E5B785C00ED6E7B /* Assets.xcassets */,
 				3D6120C91E5B785C00ED6E7B /* LaunchScreen.storyboard */,
 				3D6120CC1E5B785C00ED6E7B /* Info.plist */,
+				3D6120D71E5B817A00ED6E7B /* MemoryConstants.swift */,
 			);
 			path = MemoryGame;
+			sourceTree = "<group>";
+		};
+		3D6120D21E5B78B500ED6E7B /* MemoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D6120C21E5B785C00ED6E7B /* MemoryGameVC.swift */,
+				3D6120DC1E5BA41100ED6E7B /* MemoryCardButton.swift */,
+				3D6120D31E5B790000ED6E7B /* MemoryCell.swift */,
+				3D6120D41E5B790000ED6E7B /* MemoryCell.xib */,
+			);
+			name = MemoryCell;
+			sourceTree = "<group>";
+		};
+		3D6120D91E5B83A100ED6E7B /* MemoryCollectionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				3D6120DA1E5B83F100ED6E7B /* MemoryCollectionViewHandler.swift */,
+			);
+			name = MemoryCollectionHandler;
+			sourceTree = "<group>";
+		};
+		3D6120DE1E5BD7A700ED6E7B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3D6120DF1E5BD7C500ED6E7B /* Array+Extensions.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6120D61E5B790000ED6E7B /* MemoryCell.xib in Resources */,
 				3D6120CB1E5B785C00ED6E7B /* LaunchScreen.storyboard in Resources */,
 				3D6120C81E5B785C00ED6E7B /* Assets.xcassets in Resources */,
 				3D6120C61E5B785C00ED6E7B /* Main.storyboard in Resources */,
@@ -137,7 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D6120C31E5B785C00ED6E7B /* ViewController.swift in Sources */,
+				3D6120DD1E5BA41100ED6E7B /* MemoryCardButton.swift in Sources */,
+				3D6120C31E5B785C00ED6E7B /* MemoryGameVC.swift in Sources */,
+				3D6120DB1E5B83F100ED6E7B /* MemoryCollectionViewHandler.swift in Sources */,
+				3D6120E01E5BD7C500ED6E7B /* Array+Extensions.swift in Sources */,
+				3D6120D51E5B790000ED6E7B /* MemoryCell.swift in Sources */,
+				3D6120D81E5B817A00ED6E7B /* MemoryConstants.swift in Sources */,
 				3D6120C11E5B785C00ED6E7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
